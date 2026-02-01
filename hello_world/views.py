@@ -9,7 +9,6 @@ msg = "Hello World!"
 
 @app.route('/')
 def index():
-    error;
     output = request.args.get('output')
     if not output:
         output = PLAIN
